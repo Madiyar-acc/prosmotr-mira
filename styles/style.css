@@ -16,10 +16,9 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    display: grid;
+    justify-items: center;
+    align-content: center;
 }
 
 h1,
@@ -79,12 +78,14 @@ ol {
     width: 400px;
     height: 600px;
     overflow: hidden;
+    position: relative;
 }
 
 .result__video-container {
     width: 700px;
     height: 500px;
     margin-bottom: 30px;
+    position: relative;
 }
 
 .result__video  {
@@ -196,6 +197,7 @@ input[type="text"]::placeholder {
     color: white;
     opacity: 0.5;
     font-size: 15px;
+
 }
 
 
@@ -300,18 +302,12 @@ input[type="text"]::placeholder {
     outline: 1px solid white;
 }
 
-.content__card-link:active,
-.content__card-link:focus {
-    text-decoration: none;
-}
 .content__card-link:active {
     background-color: #545050;
     text-decoration: none;
     border: none;
     outline: none;
 }
-
-
 
 
 
