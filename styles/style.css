@@ -16,9 +16,9 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-    display: grid;
-    justify-items: center;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -51,9 +51,8 @@ ol {
     grid-template-areas: "result content__details";
     grid-template-columns: 700px 500px;
     column-gap: 50px;
-    align-self: flex-end;
+    align-items: center;
 }
-
 
 .search-form {
     display: flex;
@@ -64,6 +63,7 @@ ol {
 .content__list {
     overflow-y: auto;
     height: 400px;
+    position: relative;
 }
 
 .content__list-item {
@@ -78,12 +78,12 @@ ol {
     width: 400px;
     height: 600px;
     overflow: hidden;
-    position: relative;
+
 }
 
 .result__video-container {
     width: 700px;
-    height: 500px;
+    height: 400px;
     margin-bottom: 30px;
     position: relative;
 }
@@ -204,7 +204,7 @@ input[type="text"]::placeholder {
 .search-form__checkbox-list {
     display: flex;
     justify-content: space-between;
-    /*width: 100px;*/
+    width: 100px;
 
 }
 .search-form__pseudo-checkbox {
