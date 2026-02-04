@@ -67,7 +67,7 @@ ol {
     position: relative;
     display: grid;
     gap: 30px;
-    padding: 0 3px;
+    padding: 3px;
 }
 
 
@@ -125,7 +125,6 @@ ol {
     color: white;
     text-decoration: none;
 }
-
 
 .content__video-card-title {
     text-transform: uppercase;
