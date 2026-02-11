@@ -51,8 +51,7 @@ ol {
     grid-template-areas: "result content__details";
     grid-template-columns: 700px 400px;
     column-gap: 30px;
-    /*align-items: flex-end;*/
-    align-items: start;
+    align-items: flex-end;
 
 }
 .search-form {
