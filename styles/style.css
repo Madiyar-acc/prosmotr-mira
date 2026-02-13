@@ -63,7 +63,7 @@ ol {
 
 .content__list {
     overflow-x: hidden;
-    height: 352px;
+    height: 320px;
     position: relative;
     display: grid;
     gap: 30px;
@@ -80,7 +80,6 @@ ol {
 
 .content__details {
     width: 400px;
-    height: 542px;
     overflow: hidden;
 
 }
@@ -118,10 +117,11 @@ ol {
 
 .title {
     color: white;
-    font-size: 70px;
-    line-height: 0.8;
+    font-size: 75px;
+    line-height: 94%;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 26px;
+    font-family: "Oswald";
 }
 .content__accent {
     opacity: 0.2;
